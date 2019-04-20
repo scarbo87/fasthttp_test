@@ -40,5 +40,6 @@ func main() {
 		DisableHeaderNamesNormalizing: false,
 	}
 
+	log.Println("Start fasthttp server on :8080")
 	panic(server.ListenAndServe(":8080"))
 }
