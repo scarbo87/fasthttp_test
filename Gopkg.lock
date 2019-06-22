@@ -30,8 +30,8 @@
   version = "v1.0.0"
 
 [[projects]]
-  branch = "timing-fixes"
-  digest = "1:c0a1aa0c10c477c11f9b08c0a37ff4abd55f322a60bb97e6b465ec8dcdd32886"
+  branch = "master"
+  digest = "1:ae1322db6af7b1244fbd2f6e25c4406bd16ce348f1b909da91b2a0eef9edff65"
   name = "github.com/valyala/fasthttp"
   packages = [
     ".",
@@ -39,7 +39,7 @@
     "stackless",
   ]
   pruneopts = "UT"
-  revision = "9629844d5d5f22531fbb08bacf7155cfbe9f2fbe"
+  revision = "9ba4cef1bac8ebc8fe71123bd20cfc681fdb78a8"
 
 [solve-meta]
   analyzer-name = "dep"
